@@ -3,7 +3,6 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-              android:background="#b4cdff"
         >
     <LinearLayout
             android:orientation="horizontal"
@@ -64,14 +63,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="0:00"
-                    android:textColor="#000"/>
+                    android:textColor="#000" android:id="@+id/timeOfPlay"/>
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="right"
                     android:text="3:15"
-                    android:textColor="#000"/>
+                    android:textColor="#000" android:id="@+id/timeAudio"/>
                 </LinearLayout>
            <SeekBar
                    android:id="@+id/prgAudio"
@@ -88,7 +87,7 @@
                     android:id="@+id/btnPrev"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Prev"
+                    android:text="@string/prev"
                     android:layout_margin="5dp"
                     android:background="@drawable/btn_selector"
                     />
@@ -96,7 +95,7 @@
                     android:id="@+id/btnPlay"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Play"
+                    android:text="@string/play"
                     android:layout_margin="5dp"
                     android:background="@drawable/btn_selector"
                     />
@@ -104,7 +103,7 @@
                     android:id="@+id/btnPlay"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Next"
+                    android:text="@string/next"
                     android:layout_margin="5dp"
                     android:background="@drawable/btn_selector"
                     />

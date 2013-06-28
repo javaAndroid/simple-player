@@ -31,7 +31,13 @@ public class MyActivity extends Activity implements View.OnClickListener {
     private Timer time;
     private TextView timeOfPlay , timeAudio;
     private SeekBarHandler handler = new SeekBarHandler();
-
+    private Handler handler112 = new Handler(){
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+            timeAudio.setText(msg.getData().getString("time"));
+        }
+    };
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -119,7 +125,7 @@ public class MyActivity extends Activity implements View.OnClickListener {
     }
 
     public void play(String file) {
-        Thread
+
         if (mp.isPlaying())
             mp.stop();
 
@@ -127,15 +133,24 @@ public class MyActivity extends Activity implements View.OnClickListener {
         mp.setAudioStreamType(AudioManager.STREAM_MUSIC);
         btnPlay.setText(getResources().getString(R.string.pause));
         try {
+            mp.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+                @Override
+                public void onPrepared(MediaPlayer mp) {
+                    final byte minutes = (byte) ((mp.getDuration()/1000)/60);
+                    final byte seconds = (byte) ((mp.getDuration()/1000)%60);
+
+                    Message msg = new Message();
+                    Bundle b = new Bundle();
+                    b.putString("time" , minutes+":"+seconds);
+                    msg.setData(b);
+                    handler112.sendMessage(msg);
+                }
+            });
 
             mp.setDataSource(file);
             mp.prepare();
-
-//            int minutes = (mp.getDuration()/1000)/60;
-//            int seconds = (mp.getDuration()/1000)%60;
-//            timeAudio.setText(minutes+':'+seconds);
-
             mp.start();
+
             prgAudio.setMax(mp.getDuration() / 1000);
 
 

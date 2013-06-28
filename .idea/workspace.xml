@@ -25,10 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8463b9b3-405b-4906-9ff1-79b7a309c566" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/simple_player/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/example/simple_player/MyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Simple Player.iws" />
@@ -40,7 +37,7 @@
     <file path="/btn_selector.xml" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372275439632" ignored="false" />
     <file path="/fon_bitmap.xml" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372280021557" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372452755177" ignored="false" />
-    <file path="/MyActivity.java" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372459145277" ignored="false" />
+    <file path="/MyActivity.java" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372461417759" ignored="false" />
     <file path="/line_list.xml" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372284914363" ignored="false" />
     <file path="/list_item.xml" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372284875227" ignored="false" />
     <file path="/strings.xml" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372456253043" ignored="false" />
@@ -107,13 +104,15 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/simple_player/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="26" selection-start="4832" selection-end="4837" vertical-scroll-proportion="0.5">
+            <state line="145" column="48" selection-start="5033" selection-end="5033" vertical-scroll-proportion="0.9044944">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1892#1900#0" expanded="true" />
-                <element signature="e#2094#2568#0" expanded="true" />
-                <element signature="e#2549#2550#0" expanded="true" />
+                <element signature="e#2125#2133#0" expanded="true" />
+                <element signature="e#2327#2801#0" expanded="true" />
+                <element signature="e#2782#2783#0" expanded="true" />
                 <element signature="method#search#0;class#MyActivity#0" expanded="false" />
+                <element signature="e#4513#5065#0" expanded="true" />
+                <element signature="e#5050#5051#0" expanded="true" />
                 <element signature="method#onClick#0;class#MyActivity#0" expanded="false" />
                 <element signature="class#Timer#0;class#MyActivity#0" expanded="false" />
                 <element signature="class#SeekBarHandler#0;class#MyActivity#0" expanded="false" />
@@ -469,7 +468,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24621212" sideWeight="0.85519594" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25378788" sideWeight="0.85519594" order="2" side_tool="false" content_ui="tabs" />
@@ -489,7 +488,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21363637" sideWeight="0.85519594" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14480409" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3492334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -567,10 +566,12 @@
         <state line="99" column="33" selection-start="3113" selection-end="3113" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1892#1900#0" expanded="true" />
-            <element signature="e#2094#2568#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
+            <element signature="e#2125#2133#0" expanded="true" />
+            <element signature="e#2327#2801#0" expanded="true" />
+            <element signature="e#2782#2783#0" expanded="true" />
             <element signature="method#search#0;class#MyActivity#0" expanded="false" />
+            <element signature="e#4513#5065#0" expanded="true" />
+            <element signature="e#5050#5051#0" expanded="true" />
             <element signature="method#onClick#0;class#MyActivity#0" expanded="false" />
             <element signature="class#Timer#0;class#MyActivity#0" expanded="false" />
             <element signature="class#SeekBarHandler#0;class#MyActivity#0" expanded="false" />
@@ -615,10 +616,12 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1892#1900#0" expanded="true" />
-            <element signature="e#2094#2568#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
+            <element signature="e#2125#2133#0" expanded="true" />
+            <element signature="e#2327#2801#0" expanded="true" />
+            <element signature="e#2782#2783#0" expanded="true" />
             <element signature="method#search#0;class#MyActivity#0" expanded="false" />
+            <element signature="e#4513#5065#0" expanded="true" />
+            <element signature="e#5050#5051#0" expanded="true" />
             <element signature="method#onClick#0;class#MyActivity#0" expanded="false" />
             <element signature="class#Timer#0;class#MyActivity#0" expanded="false" />
             <element signature="class#SeekBarHandler#0;class#MyActivity#0" expanded="false" />
@@ -692,13 +695,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/simple_player/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="26" selection-start="4832" selection-end="4837" vertical-scroll-proportion="0.5">
+        <state line="145" column="48" selection-start="5033" selection-end="5033" vertical-scroll-proportion="0.9044944">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1892#1900#0" expanded="true" />
-            <element signature="e#2094#2568#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
+            <element signature="e#2125#2133#0" expanded="true" />
+            <element signature="e#2327#2801#0" expanded="true" />
+            <element signature="e#2782#2783#0" expanded="true" />
             <element signature="method#search#0;class#MyActivity#0" expanded="false" />
+            <element signature="e#4513#5065#0" expanded="true" />
+            <element signature="e#5050#5051#0" expanded="true" />
             <element signature="method#onClick#0;class#MyActivity#0" expanded="false" />
             <element signature="class#Timer#0;class#MyActivity#0" expanded="false" />
             <element signature="class#SeekBarHandler#0;class#MyActivity#0" expanded="false" />

@@ -30,14 +30,14 @@
     </list>
     <ignored path="Simple Player.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372503641499" ignored="false" />
+    <file path="/Dummy.txt" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372521841001" ignored="false" />
     <file path="/main.xml" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372280585697" ignored="false" />
     <file path="/shape_button.xml" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372275583965" ignored="false" />
     <file path="/colors.xml" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372275287040" ignored="false" />
     <file path="/btn_selector.xml" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372275439632" ignored="false" />
     <file path="/fon_bitmap.xml" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372280021557" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372452755177" ignored="false" />
-    <file path="/MyActivity.java" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372503495897" ignored="false" />
+    <file path="/MyActivity.java" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372526233003" ignored="false" />
     <file path="/line_list.xml" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372284914363" ignored="false" />
     <file path="/list_item.xml" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372284875227" ignored="false" />
     <file path="/strings.xml" changelist="8463b9b3-405b-4906-9ff1-79b7a309c566" time="1372456253043" ignored="false" />
@@ -104,27 +104,26 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/simple_player/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="0" selection-start="2731" selection-end="3352" vertical-scroll-proportion="0.5862069">
+            <state line="138" column="15" selection-start="4869" selection-end="4869" vertical-scroll-proportion="0.6816038">
               <folding>
-                <element signature="class#4099:4674" expanded="false" />
-                <element signature="method#onProgressChanged#0;class#4099:4674" expanded="false" />
-                <element signature="method#onStartTrackingTouch#0;class#4099:4674" expanded="false" />
-                <element signature="method#onStopTrackingTouch#0;class#4099:4674" expanded="false" />
+                <element signature="class#1113:1309" expanded="false" />
+                <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
+                <element signature="e#2626#3560#0" expanded="true" />
+                <element signature="e#3541#3542#0" expanded="true" />
+                <element signature="e#3843#4063#0" expanded="true" />
+                <element signature="e#4052#4053#0" expanded="true" />
+                <element signature="method#onProgressChanged#0;class#4268:4843" expanded="false" />
+                <element signature="method#onStartTrackingTouch#0;class#4268:4843" expanded="false" />
+                <element signature="method#onStopTrackingTouch#0;class#4268:4843" expanded="false" />
                 <element signature="method#search#0;class#MyActivity#0" expanded="false" />
                 <element signature="method#play#0;class#MyActivity#0" expanded="false" />
+                <element signature="e#6127#6999#0" expanded="true" />
+                <element signature="e#6984#6985#0" expanded="true" />
                 <element signature="method#onClick#0;class#MyActivity#0" expanded="false" />
+                <element signature="method#setTitle#0;class#MyActivity#0" expanded="false" />
+                <element signature="method#clearTitle#0;class#MyActivity#0" expanded="false" />
                 <element signature="class#Timer#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#Timer#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#setStop#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#getStop#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#setPause#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#getPause#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#setContinuee#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#setSeconds#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#getContinuee#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#run#0;class#Timer#0;class#MyActivity#0" expanded="false" />
                 <element signature="class#SeekBarHandler#0;class#MyActivity#0" expanded="false" />
-                <element signature="method#handleMessage#0;class#SeekBarHandler#0;class#MyActivity#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -133,7 +132,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="26" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+            <state line="3" column="26" selection-start="128" selection-end="128" vertical-scroll-proportion="-2.04">
               <folding />
             </state>
           </provider>
@@ -142,7 +141,7 @@
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="49" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+            <state line="4" column="49" selection-start="255" selection-end="255" vertical-scroll-proportion="-1.36">
               <folding />
             </state>
           </provider>
@@ -205,7 +204,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -216,62 +215,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Simple Player" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Simple Player" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-player" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Simple Player" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-player" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Simple Player" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-player" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -476,8 +420,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -486,7 +430,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1890971" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.7666099" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -495,7 +439,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21363637" sideWeight="0.85519594" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11584327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23339012" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24621212" sideWeight="0.8841567" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25378788" sideWeight="0.8841567" order="2" side_tool="false" content_ui="tabs" />
@@ -574,25 +518,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="99" column="33" selection-start="3113" selection-end="3113" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="class#4099:4674" expanded="false" />
-            <element signature="method#onProgressChanged#0;class#4099:4674" expanded="false" />
-            <element signature="method#onStartTrackingTouch#0;class#4099:4674" expanded="false" />
-            <element signature="method#onStopTrackingTouch#0;class#4099:4674" expanded="false" />
+            <element signature="class#1113:1309" expanded="false" />
+            <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
+            <element signature="e#2626#3560#0" expanded="true" />
+            <element signature="e#3541#3542#0" expanded="true" />
+            <element signature="e#3843#4063#0" expanded="true" />
+            <element signature="e#4052#4053#0" expanded="true" />
+            <element signature="method#onProgressChanged#0;class#4268:4843" expanded="false" />
+            <element signature="method#onStartTrackingTouch#0;class#4268:4843" expanded="false" />
+            <element signature="method#onStopTrackingTouch#0;class#4268:4843" expanded="false" />
             <element signature="method#search#0;class#MyActivity#0" expanded="false" />
             <element signature="method#play#0;class#MyActivity#0" expanded="false" />
+            <element signature="e#6127#6999#0" expanded="true" />
+            <element signature="e#6984#6985#0" expanded="true" />
             <element signature="method#onClick#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#setTitle#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#clearTitle#0;class#MyActivity#0" expanded="false" />
             <element signature="class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#Timer#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#setStop#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#getStop#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#setPause#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#getPause#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#setContinuee#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#setSeconds#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#getContinuee#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#run#0;class#Timer#0;class#MyActivity#0" expanded="false" />
             <element signature="class#SeekBarHandler#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#handleMessage#0;class#SeekBarHandler#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -631,25 +574,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="class#4099:4674" expanded="false" />
-            <element signature="method#onProgressChanged#0;class#4099:4674" expanded="false" />
-            <element signature="method#onStartTrackingTouch#0;class#4099:4674" expanded="false" />
-            <element signature="method#onStopTrackingTouch#0;class#4099:4674" expanded="false" />
+            <element signature="class#1113:1309" expanded="false" />
+            <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
+            <element signature="e#2626#3560#0" expanded="true" />
+            <element signature="e#3541#3542#0" expanded="true" />
+            <element signature="e#3843#4063#0" expanded="true" />
+            <element signature="e#4052#4053#0" expanded="true" />
+            <element signature="method#onProgressChanged#0;class#4268:4843" expanded="false" />
+            <element signature="method#onStartTrackingTouch#0;class#4268:4843" expanded="false" />
+            <element signature="method#onStopTrackingTouch#0;class#4268:4843" expanded="false" />
             <element signature="method#search#0;class#MyActivity#0" expanded="false" />
             <element signature="method#play#0;class#MyActivity#0" expanded="false" />
+            <element signature="e#6127#6999#0" expanded="true" />
+            <element signature="e#6984#6985#0" expanded="true" />
             <element signature="method#onClick#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#setTitle#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#clearTitle#0;class#MyActivity#0" expanded="false" />
             <element signature="class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#Timer#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#setStop#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#getStop#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#setPause#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#getPause#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#setContinuee#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#setSeconds#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#getContinuee#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#run#0;class#Timer#0;class#MyActivity#0" expanded="false" />
             <element signature="class#SeekBarHandler#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#handleMessage#0;class#SeekBarHandler#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -699,16 +641,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="49" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+        <state line="4" column="49" selection-start="255" selection-end="255" vertical-scroll-proportion="-1.36">
           <folding />
         </state>
       </provider>
@@ -716,29 +651,35 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="26" selection-start="128" selection-end="128" vertical-scroll-proportion="-2.04">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/simple_player/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="2731" selection-end="3352" vertical-scroll-proportion="0.5862069">
+        <state line="138" column="15" selection-start="4869" selection-end="4869" vertical-scroll-proportion="0.6816038">
           <folding>
-            <element signature="class#4099:4674" expanded="false" />
-            <element signature="method#onProgressChanged#0;class#4099:4674" expanded="false" />
-            <element signature="method#onStartTrackingTouch#0;class#4099:4674" expanded="false" />
-            <element signature="method#onStopTrackingTouch#0;class#4099:4674" expanded="false" />
+            <element signature="class#1113:1309" expanded="false" />
+            <element signature="method#onCreate#0;class#MyActivity#0" expanded="false" />
+            <element signature="e#2626#3560#0" expanded="true" />
+            <element signature="e#3541#3542#0" expanded="true" />
+            <element signature="e#3843#4063#0" expanded="true" />
+            <element signature="e#4052#4053#0" expanded="true" />
+            <element signature="method#onProgressChanged#0;class#4268:4843" expanded="false" />
+            <element signature="method#onStartTrackingTouch#0;class#4268:4843" expanded="false" />
+            <element signature="method#onStopTrackingTouch#0;class#4268:4843" expanded="false" />
             <element signature="method#search#0;class#MyActivity#0" expanded="false" />
             <element signature="method#play#0;class#MyActivity#0" expanded="false" />
+            <element signature="e#6127#6999#0" expanded="true" />
+            <element signature="e#6984#6985#0" expanded="true" />
             <element signature="method#onClick#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#setTitle#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#clearTitle#0;class#MyActivity#0" expanded="false" />
             <element signature="class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#Timer#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#setStop#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#getStop#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#setPause#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#getPause#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#setContinuee#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#setSeconds#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#getContinuee#0;class#Timer#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#run#0;class#Timer#0;class#MyActivity#0" expanded="false" />
             <element signature="class#SeekBarHandler#0;class#MyActivity#0" expanded="false" />
-            <element signature="method#handleMessage#0;class#SeekBarHandler#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>

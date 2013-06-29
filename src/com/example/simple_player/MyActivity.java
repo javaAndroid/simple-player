@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.ProgressDialog;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
+import android.media.SoundPool;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -15,6 +16,7 @@ import android.widget.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.StringTokenizer;
 import java.util.concurrent.TimeUnit;
 
 public class MyActivity extends Activity implements View.OnClickListener {
@@ -43,6 +45,9 @@ public class MyActivity extends Activity implements View.OnClickListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
+
+
 
         tvNameAuthor = (TextView) findViewById(R.id.tvNameAuthor);
         tvNameAudio = (TextView) findViewById(R.id.tvNameAudio);
@@ -75,8 +80,9 @@ public class MyActivity extends Activity implements View.OnClickListener {
 //                        t.setTextColor(0xff343434);
 //                        Log.d(TAG, t.getText().toString());
 //                        setTitle(nameAudioList.get(position));
+                        clearTitle();
                         play(playList.get(position));
-
+                        setTitle(nameAudioList.get(position));
 //                        View w = (View) listAudio.getAdapter().getView(position, null, null);
 //                        t = (TextView) w.findViewById(android.R.id.text1);
 //                        w.setBackgroundColor(0xff123212);
@@ -172,6 +178,8 @@ public class MyActivity extends Activity implements View.OnClickListener {
         mp.setAudioStreamType(AudioManager.STREAM_MUSIC);
         btnPlay.setText(getResources().getString(R.string.pause));
         try {
+            mp.setDataSource(file);
+            mp.prepare();
             mp.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
                 @Override
                 public void onPrepared(MediaPlayer mp) {
@@ -193,13 +201,15 @@ public class MyActivity extends Activity implements View.OnClickListener {
                     b.putString("time", time);
                     msg.setData(b);
                     handler112.sendMessage(msg);
+
+
                 }
             });
 
-            mp.setDataSource(file);
-            mp.prepare();
-            mp.start();
 
+
+
+            mp.start();
             prgAudio.setMax(mp.getDuration() / 1000);
 
 
@@ -236,11 +246,21 @@ public class MyActivity extends Activity implements View.OnClickListener {
     }
 
     public void setTitle(String fileName) {
-        String[] info = fileName.split("-");
-        tvNameAuthor.setText(info[0]);
-        tvNameAudio.setText(info[1]);
+        Log.d(TAG , fileName);
+        StringTokenizer st = new StringTokenizer(fileName,"-−");
+       if (st.hasMoreTokens()){
+           tvNameAuthor.setText(st.nextToken());
+       }
+        while(st.hasMoreTokens()){
+            tvNameAudio.setText(tvNameAudio.getText() + st.nextToken());
+        }
+
     }
 
+    public void clearTitle(){
+        tvNameAuthor.setText(null);
+        tvNameAudio.setText(null);
+    }
     // Classes
 
     class Timer extends Thread {
